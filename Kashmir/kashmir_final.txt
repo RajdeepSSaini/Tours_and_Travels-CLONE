@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Kashmir</title>
+    <link rel="icon" type="image/png" href="t&t.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('ka_bg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            color: white;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background: #575757;
+        }
+        .navbar .enquiry-button {
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: white;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            height: 400px;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .active {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #fff;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            color: #fff;
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="t&t.png" alt="Icon"> 
+            Explore Kashmir
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Destination</a>
+            <a href="#itenary">Itinerary</a>
+            <a href="#package">Package</a>
+            <a href="#terms">T&C</a>
+            <a href="enquiry.html" target="_blank" class="enquiry-button">Send Enquiry</a>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Destination</h1>
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="ka1.jpg" alt="Kashmir Image 1"> 
+            </div>
+            <div class="slides">
+                <img src="ka2.jpg" alt="Kashmir Image 2">
+            </div>
+            <div class="slides">
+                <img src="ka3.jpg" alt="Kashmir Image 3">
+            </div>
+            <div class="slides">
+                <img src="ka4.jpg" alt="Kashmir Image 4">
+            </div>
+            <div class="slides">
+                <img src="ka5.jpg" alt="Kashmir Image 5">
+            </div>
+            <div class="slides">
+                <img src="ka6.jpg" alt="Kashmir Image 6">
+            </div>
+            <div class="slides">
+                <img src="ka7.jpg" alt="Kashmir Image 7">
+            </div>
+        </div>
+        <p>Kashmir, often referred to as "Paradise on Earth," is a stunning region in northern India, renowned for its breathtaking natural beauty. Nestled in the Himalayas, it boasts majestic mountains, lush valleys, serene lakes, and picturesque gardens. The iconic Dal Lake, with its charming houseboats and shikaras, is a major attraction. Kashmir is also rich in cultural heritage, offering unique handicrafts, flavorful cuisine, and vibrant festivals. Visitors can enjoy activities like trekking, skiing, and exploring historical sites. With its serene landscapes and warm hospitality, Kashmir promises an unforgettable experience for travelers seeking tranquility and adventure.</p>
+    </div>
+
+    <div class="container" id="itenary">
+        <h1>Detailed Day Wise Itinerary</h1>
+        <ul>
+            <li><strong>Day 1: ARRIVAL IN SRINAGAR & CITY TOUR</strong> 
+            <p>The chauffeur will meet and greet you at the Airport with your Name placard. Will transfer to your hotel and after freshening up you can leave for the beautiful Srinagar city tour.</p>
+            <p><strong>Places to be visited in Kashmir:</strong> Dal-Lake, Hazratbal, Nigeen Lake, Shalimar, Nishat, Botanical garden, Cheshma-Shahi, Pari-mahal, Shankaracharya Temple. Later transfer to hotel in Sriangar.</p>
+            <p><strong>Activities in Kashmir:</strong> Shikara ride, Water skating, Hot Air Baloon, Para Gliding, Shankarachraya temple trekk, Motor Boating, Helicopter sightseeing.</p></li>
+
+
+            <li><strong>Day 2: SONAMARG DAY TRIP</strong> 
+            <p>Prepare yourself for a trip to Sonmarg after a sumptuous breakfast. Check out from Srinagar hotel. Adjust your posture and  hire a horse or pony to ride you to the Thajiwas Glacier, which is covered in snow year-round. Do not skip taking memorable photos of the breathtaking scenery. Sonamarg’s weather is usually lovely, whether it’s summer or winter. Later in evening we move back to Srinagar and spend the night at Srinagar Hotel.</p>
+            <p><strong>Places to be visited in Kashmir:</strong> Baltal Valley, Thajwas Glacier, Zero Point, Nilagrad River.</p></li>
+            <p>Travel Time & Distance: 2.5 - 3 hours | 80KMs one way</p>
+	    <p><strong>Activities in Kashmir:</strong> White River Rafting, Trekking, Pony-Ride, Skiing, Sledging etc.</p></li>
+            
+
+	    <li><strong>Day 3: GULMARG DAY TRIP</strong> 
+            <p>Wakeup fresh and have breakfast and we are ready to start our day and fill your soul with adventure of Gulmarg. A majestic hill station encircled by lofty Himlayan peaks. Enroute we see the apple orchards , Weaving factories, Handicraft items by street hawkers. After enjoying the overwhelming beauty return to the hotel in Srinagar later have dinner and have a comfortable sleep.</p>
+            <p><strong>Places to be visited in Kashmir:</strong> Golf Course, Mata ka Mandir, Heritage Church, Khilanmarg, Farwat Peak, Drung waterfall, Mountain Lake.</p></li>
+            <p>Travel Time & Distance: 1.5 - 2 hours | 60KMs one way</p>
+	    <p><strong>Activities in Kashmir:</strong> Gondola Ride Phase 1 (Halfway Mountain) & Phase 2 (Full Mountain Peak), ATV ride, Snow Skiing, Snow Skating, Snow Boarding, Pony ride etc.</p></li>
+        
+
+            <li><strong>Day 4: PAHALGAM | OVERNIGHT STAY</strong> 
+            <p>Waking up relaxed have breakfast as today we have to feast your eyes with the beauty of Pahalgam. Known as the “Valley of Shepherds”. We drive pass by pampore saffron fields. The Lidder river flows along with our route and literally accompanies us till you reach. Later in the evening transfer to Hotel in Pahalgam and so you can stalk the nature and beautiful Lidder river.</p>
+            <p><strong>Places to be visited in Kashmir:</strong> Golf course, Central Mandir, Aru Valley, Betaab Valley, Chandanwari (ABC Valleys), Baisaran, Dabyan Valley, Waterfall, Wildlife Sactuary, Zoo.</p></li>
+            <p>Travel Time & Distance: 2 - 2.5 hours | 90KMs one way</p>
+	    <p><strong>Activities in Kashmir:</strong> River Rafting, Pony Rides, ATV Rides, Amusement park.</p></li>
+        
+
+            <li><strong>Day 5: PAHALGAM SIGHTSEEING</strong> 
+            <p>We continue to explore the rest of Pahalgam woods and the activities which were left incomplete due to long exhausting journey and short day time yesterday. While coming back you can shop for cricket bat direct from factories, saffron from gardeners and dry fruits from small family run made shops. In the evening you are transferred to the experience of houseboat in the calm of lake.</p>
+            <p><strong>Places to be visited in Kashmir:</strong> ANY PLACE NOT VISITED THE DAY BEFORE. Mamaleshwar Temple, Wadiy-e-Hajan & Chandanwari.</p></li>
+            <p>Travel Time & Distance: 2 - 2.5 hours | 90KMs one way</p>
+	    <p><strong>Activities in Kashmir:</strong> TBA</p></li>
+        
+
+            <li><strong>Day 6: GIFT COLLECTION & DEPARTURE</strong> 
+            <p>Enjoy the breakfast. Pack-up all your belongings as we have to reach airport at least 2 hours prior to departure. On the way see the heritage museum to feel the history first hand. It is hard to say Good bye but time has left us no option we will still be in touch with you over WhatsApp and calls and meet on such wonderful tours (Tour ends here with sweet memories)</p>
+            <p><strong>Places to be visited in Kashmir:</strong> Dal Lake, Market, Munawarabad Market, Lal Chowk</p></li>
+        </ul>
+    </div>
+
+    <div class="container" id="package">
+        <h1>Package (5 Nights 6 Days): ₹39999.00/- Per Person</h1>
+        <ul>
+            <li><h3>VEHICLE FOR THE TOUR</h3></li>
+        </ul>
+        <ol>
+            <li>For 01 to 03 Person: An AC Toyota Etios / Swift Dezire / Similar</li>
+            <li>For 04 to 06 Person: An AC Toyota Innova / Similar</li>
+            <li>For 07 to 12 Person: An AC Tempo Traveller / Similar</li>
+            <li>For 13 to 18 Person: An AC Mini Coach / Similar (NA at the moment)</li>
+            <li>For 18 to 45 Person: An AC Mini Coach / Similar (NA at the moment)</li>
+        </ol>
+        <ul>
+            <li><h3>ACCOMODATION FOR THE TOUR</h3></li>
+        </ul>
+        <li>Leh - Peacock Houseboats / Fluorescence Hotel & Restaurant / Lidder Spring Resorts</li>
+        <ul>
+            <li><h3>INCLUDED IN THE TOUR</h3></li>
+        </ul>
+        <ol>
+            <li>Hotel/Camp Accommodation for 05 nights</li>
+            <li>1 Night Houseboat Stay</li>
+            <li>05 Breakfasts and 05 Dinners (MAP Meal Plan) + Morning Tea/Coffee</li>
+            <li>Private taxi (Xylo/Innova for upto 6pax and Tempo Traveller for more than 7 pax) for all sightseeing as per itinerary. You can upgrade to other vehicle. Please note that AC would be switched off on the hills.</li>
+            <li>Airport to Airport exclusive taxi.</li>
+            <li>1 Hour Complimentary Shikara Ride</li>
+            <li>24-Hours Guidance</li>
+            <li>Parking, Toll, Fuel, Driver Allowances</li>
+            <li>An experienced driver would work as a guide (You can hire a dedicated guide as well)</li>
+        </ol>
+        <ul>
+            <li><h3>NOT Included in this Tour</h3></li>
+        </ul>
+        <ol>
+            <li>Lunch, beverages and meal other than the meal plan</li>
+            <li>Any Flight/Rail tickets</li>
+            <li>Personal expenses like alcoholic drinks, room service, Laundry, Tip, Shopping expenses</li>
+            <li>Adventure activities like rafting, gondola, pony ride, skiing, chained gear vehicles etc.</li>
+	    <li>Restricted areas in destinations like Aru, Betaab, Chandanwari, Zojilla, Gulmarg inner circuit</li>
+	    <li>Expenses due to natural disasters, human error, road blockage, political unrest, weather changes, flight or road issues</li>
+	    <li>Private guide</li>
+        </ol>
+    </div>
+
+    <div class="container" id="terms">
+        <h1>Terms & Conditions</h1>
+        <h3>Payment Terms & Methods:</h3>
+        <ol>
+            <li>Some Advance Percentage of total booking amount.</li>
+            <li>Airfare/Transport fare to be paid full at one time in advance.</li>
+        </ol>
+        <h3>Cancellation & Refund Policy:</h3>
+        <ol>
+            <li>25% cancellation charges if canceled 7 days before the trip. No refund for cancellations made less than 7 days before the trip.</li>
+            <li>Retention Amount varies as per the number of days left before your package start date.</li>
+        </ol>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active");
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>

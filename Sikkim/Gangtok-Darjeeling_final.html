@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Sikkim</title>
+    <link rel="icon" type="image/png" href="t&t.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+            background-image: url('dg_bg.jpg'); 
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Transparent background */
+            padding: 10px;
+            color: white;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .logo img {
+            height: 40px; /* Adjust size as needed */
+            margin-right: 10px;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background: #575757;
+        }
+        .navbar .enquiry-button {
+            background-color: green; /* Green background */
+            border: none;
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; /* Font size */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7); /* Black and transparent */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: white;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            height: 400px;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .active {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #fff; /* White color */
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            color: #fff; /* White color */
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #fff; /* White color */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="t&t.png" alt="Logo"> 
+            Explore Sikkim
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Destination</a>
+            <a href="#itenary">Itinerary</a>
+            <a href="#package">Package</a>
+            <a href="#terms">T&C</a>
+            <a href="enquiry.html" target="_blank" class="enquiry-button">Send Enquiry</a>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Destination</h1>
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="dg_1.jpg" alt="Sikkim Image 1"> 
+            </div>
+            <div class="slides">
+                <img src="dg_2.jpg" alt="Sikkim Image 2">
+            </div>
+            <div class="slides">
+                <img src="dg_3.jpg" alt="Sikkim Image 3">
+            </div>
+            <div class="slides">
+                <img src="dg_4.jpg" alt="Sikkim Image 4">
+            </div>
+            <div class="slides">
+                <img src="dg_5.jpg" alt="Sikkim Image 5">
+            </div>
+            <div class="slides">
+                <img src="dg_6.jpg" alt="Sikkim Image 6">
+            </div>
+        </div>
+        <p><strong>Gangtok</strong> is the bustling capital of Sikkim, one of the most famous destinations of Northeast India. It is a lovely hill station located at an altitude of 1,650 m. It is one of the cleanest cities you will ever come across in India. It is well organized and maintained city with many attractions. It bewilders its visitors with the views of Mt. Kanchenjunga, the third highest mountain in the world, gorgeous green forest, picturesque landscapes and cascading waterfalls.</p>
+        <p><strong>Darjeeling</strong> is rightly called the Queen of Hills. Visit to experience the beauty of the first rays of sun falling on the snow-capped peaks of Kanchenjunga. Another feather in its cap is the Toy Train which is a UNESCO World Heritage Site. This arresting hill station is located at an altitude of 6,700 feet. Other famous attractions of Darjeeling are tea gardens, Buddhist Monasteries, colonial architecture and mighty Kanchenjunga mountains.</p>
+    </div>
+
+    <div class="container" id="itenary">
+        <h1>Detailed Day Wise Itinerary</h1>
+        <ul>
+            <li><strong>Day 1: ARRIVAL IN NJP/IXB TO GANGTOK (130Km/4 hour drive)</strong> 
+                <p>Once you reach the NJP/Bagdogra, you will be received by our representative with a warm welcome. He will drive you to Gangtok. Check in at the hotel. Freshen up and take some rest. Remaining day at leisure. In the evening, you can visit the MG Marg, the main street of Gangtok. Overnight stay at the hotel.</p>
+            </li>
+
+            <li><strong>Day 2: GANGTOK FULL DAY SIGHTSEEING</strong> 
+                <p>After a delicious breakfast, embark on a journey to explore the famous attractions of Gangtok, the capital city of Sikkim. Located at an elevation of 1,650 m, Gangtok is also the gateway to Sikkim. First, visit the Bakthang Waterfalls which is quite wide and a great spot to take photographs. Next, you head to Tashi viewpoint for capturing far-reaching views of Mt.Kanchenjunga, the third highest mountains in the world.</p>
+                <p>This point is also known for great sunrise views. Then head for Ganesh Tok, the Charming Hindu temple with mesmerizing hilltop views. After this, visit the Enchey Monastery which is believed to be the home of the protecting deities, Khangchendzonga and Yabdean. Enjoy a cable car ride on the Ropeway and catch the bird’s eye view of the surroundings.</p>
+                <p>Other Gangtok attractions to be covered are Directorate of Handicraft and Handloom, Do Drul Chorten Stupa, Institute of Tibetology, Flower Show, and Banjhakri Falls. After sightseeing, drive back to the hotel. Stay overnight at the hotel.</p>
+            </li>
+
+            <li><strong>Day 3: GANGTOK (EXCURSION TO TSOMGO LAKE & BABA MANDIR)</strong> 
+                <p>Get ready for an exciting day today! Start the early morning at around 8 am to reach the pristine Tsomgo Lake located at an elevation of 3750 m and is around 3-hour drive from Gangtok. It is an irresistible waterbody which owes its charm to the snow-covered mountains and wild flowers in its surroundings. It is considered sacred by Hindus as well as Buddhists. In winter it gets frozen and in spring it comes back to life with blooming flowers in its surroundings. After enjoying yourself at the Lake, drive to Baba Harbhajan Mandir which is dedicated to a brave Indian soldier, Baba Harbhajan Singh who sacrificed his life while performing his duty. After completing the excursion, go back to the hotel in Gangtok. Remaining day at leisure. Stay overnight at the hotel.</p>
+                <p><strong>Note:</strong> You can also visit Nathula Pass on the same day at an additional cost.</p>
+                <p>Nathula Pass is a great destination for adventure and mountain lovers as it is one of the highest motorable passes in the world. It is also an old trading border post connecting Tibet and India.</p>
+            </li>
+
+            <li><strong>Day 4: GANGTOK TO DARJEELING (110Km/4 hour drive)</strong> 
+                <p>After breakfast, start your journey to Darjeeling, the Queen of Hills. Once you reach Darjeeling, our representative will assist you to check in at the hotel at Darjeeling. Overnight stay at the hotel.</p>
+            </li>
+
+            <li><strong>Day 5: DARJEELING (FULL DAY SIGHTSEEING)</strong> 
+                <p>This day will bring you a great experience as you explore the famous attractions of Darjeeling. It is a dreamy destination located at an elevation of 2,042 meters in West Bengal. Today start early in the morning at around 4 am to visit the famous tourist destination of Darjeeling- Tiger Hill. It attracts visitors from far and wide for its breathtaking views of the sunrise over Mt. Kanchenjunga. It is the highest point in the town.</p>
+                <p>Next, visit Batasia Loop, a spiral railway track in a picturesque location, and Ghoom Monastery. Have breakfast on the way to the next attraction-the Japanese Temple. It is a revered pilgrimage of Buddhist known for its exquisite Japanese architecture.</p>
+                <p>The other Darjeeling attractions which will be covered today are Padmaja Naidu Himalayan Zoological Park(closed on Thursday), Himalayan Mountaineering Institute, Tenzing Rock, Peace Pagoda and Chitrey Tea Garden(outer view). Spend the evening at MG Road, the main street of Darjeeling.</p>
+                <p><strong>Note: Toy Train can be done on the same day at an additional cost.</strong></p>
+            </li>
+        
+            <li><strong>Day 6: DARJEELING TO NJP/IXB (88Km/3 hour drive)</strong> 
+                <p>Take pleasure in a delicious breakfast at the hotel before getting ready to leave Darjeeling. Either head to Bagdogra Airport (IXB) or New Jalpaiguri Railway Station (NJP). Take a train or a fly to your next location while carrying a wealth of lovely memories from your journey to Sikkim, Gangtok, and Darjeeling.(Tour ends here with sweet memories)</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container" id="package">
+        <h1>Package (5 Nights 6 Days): ₹33750.00/- Per Person</h1>
+
+        <ul>    
+            <li><h3>VEHICLE FOR THE TOUR</h3></li>
+        </ul>
+        <ol>
+            <li>For 01 to 03 Person: An AC Toyota Etios / Swift Dezire / Similar</li>
+            <li>For 04 to 06 Person: An AC Toyota Innova / Similar</li>
+            <li>For 07 to 12 Person: An AC Tempo Traveller / Similar</li>
+            <li>For 13 to 18 Person: An AC Mini Coach / Similar (NA at the moment)</li>
+            <li>For 18 to 45 Person: An AC Mini Coach / Similar (NA at the moment)</li>
+        </ol>
+
+        <ul>    
+            <li><h3>ACCOMMODATION FOR THE TOUR</h3></li>
+        </ul>
+        <ol>
+            <li>Sikkim & Darjeeling - Summit Hermon Hotel & Spa / Summit Denzong Hotel & Spa / Similar</li>
+        </ol>
+
+        <ul>    
+            <li><h3>INCLUDED IN THE TOUR</h3></li>
+        </ul>
+        <ol>
+            <li>Hotel Accommodation for 05 nights</li>
+            <li>Welcome Drink on arrival</li>
+            <li>05 Breakfasts and 05 Dinners (MAP Meal Plan) + Morning Tea/Coffee</li>
+            <li>Private taxi (Xylo/Innova for up to 6 pax and Tempo Traveller for more than 7 pax) for all sightseeing as per itinerary. You can upgrade to other vehicles. Please note that AC would be switched off on the hills.</li>
+            <li>Leh Airport Pick-up and Drop off</li>
+            <li>Inner Line Permit/ Protected Area Permit</li>
+            <li>24-Hours Guidance</li>
+            <li>Parking, Toll, Fuel, Driver Allowances</li>
+            <li>An experienced driver would work as a guide (You can hire a dedicated guide as well)</li>
+        </ol>
+
+        <ul>    
+            <li><h3>NOT Included in this Tour</h3></li>
+        </ul>
+        <ol>
+            <li>Lunch, beverages and meals other than the meal plan</li>
+            <li>Any Flight/Rail tickets</li>
+            <li>Laundry, Tip, Shopping expenses</li>
+            <li>Additional sightseeing or extra usage of vehicles other than mentioned in the itinerary</li>
+            <li>Private guide</li>
+        </ol>
+    </div>
+
+    <div class="container" id="terms">
+        <h1>Terms & Conditions</h1>
+        <h3>Payment Terms & Methods:</h3>
+        <ol>
+            <li>Some Advance Percentage of total booking amount.</li>
+            <li>Airfare/Transport fare to be paid full at one time in advance.</li>
+        </ol>
+        <h3>Cancellation & Refund Policy:</h3>
+        <ol>
+            <li>25% cancellation charges if canceled 7 days before the trip. No refund for cancellations made less than 7 days before the trip.</li>
+            <li>Retention Amount varies as per the number of days left before your package start date.</li>
+        </ol>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active");
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>

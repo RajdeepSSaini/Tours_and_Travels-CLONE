@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Andaman</title>
+    <link rel="icon" type="image/png" href="t&t.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+            background-image: url('a_bg.png'); 
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Transparent background */
+            padding: 10px;
+            color: white;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            width: 24px; /* Adjust the size as needed */
+            height: 24px; /* Adjust the size as needed */
+            margin-right: 10px; /* Space between icon and text */
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background: #575757;
+        }
+        .navbar .enquiry-button {
+            background-color: green; /* Green background */
+            border: none;
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; /* Font size */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7); /* Black and transparent */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: white;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            height: 500px;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .active {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #fff; /* White color */
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            color: #fff; /* White color */
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #fff; /* White color */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="t&t.png" alt="Icon"> 
+            Explore Andaman
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Destination</a>
+            <a href="#itenary">Itinerary</a>
+            <a href="#package">Package</a>
+            <a href="#terms">T&C</a>
+            <a href="enquiry.html" target="_blank" class="enquiry-button">Send Enquiry</a>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Destination</h1>
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="a1.png" alt="Andaman Image 1"> 
+            </div>
+            <div class="slides">
+                <img src="a2.png" alt="Andaman Image 2">
+            </div>
+            <div class="slides">
+                <img src="a3.png" alt="Andaman Image 3">
+            </div>
+            <div class="slides">
+                <img src="a4.png" alt="Andaman Image 4">
+            </div>
+            <div class="slides">
+                <img src="a5.png" alt="Andaman Image 5">
+            </div>
+        </div>
+        <p>The Andaman Islands, an archipelago in the Bay of Bengal, offer a perfect blend of pristine natural beauty and rich history. Known for their turquoise waters, white sandy beaches, and lush rainforests, the islands are a haven for nature lovers and adventure enthusiasts alike. Visitors can explore vibrant coral reefs, enjoy water sports, and visit historical sites like the Cellular Jail. The islands' diverse flora and fauna, including unique species like the Andaman wild pig and the Nicobar pigeon, make it a paradise for wildlife enthusiasts. With its serene ambiance and stunning landscapes, the Andaman Islands promise an unforgettable travel experience.</p>
+    </div>
+
+    <div class="container" id="itenary">
+        <h1>Detailed Day Wise Itinerary</h1>
+        <ul>
+            <li><strong>Day 1: ARRIVAL IN PORT BLAIR </strong> 
+            <p>Upon arriving in Port Blair, our representative extends a warm welcome and facilitates your transfer to the hotel for relaxation and refreshment. Following a satisfying lunch, your itinerary for the day unfolds with visits to the following destinations:</p>
+	    <p><strong>Cellular Jail:</strong> Begin your exploration with a visit to the historic Cellular Jail, famously known as Kala Pani. This colonial-era prison holds a pivotal place in India’s fight for independence. Immerse yourself in the poignant history of the freedom fighters who endured incarceration here, conveyed through informative exhibits and displays. A guided tour offers insights into the hardships faced by the prisoners, providing a profound understanding of India’s struggle for independence.</p>
+            <p><strong>Corbyn’s Cove Beach:</strong> After exploring Cellular Jail, head to Corbyn’s Cove Beach, a picturesque destination celebrated for its serene ambiance and tranquil waters. Enjoy the soft sandy beach, take a leisurely stroll along the shore, or simply relax under the shade of swaying palm trees. Adventure enthusiasts can partake in water sports activities like jet skiing or banana boat rides.</p>
+	    <p><strong>Light & Sound Show:</strong> In the evening, immerse yourself in the mesmerizing Light & Sound Show at Cellular Jail. The show unfolds the history of the Indian freedom struggle, highlighting the sacrifices and struggles of the imprisoned freedom fighters. The combination of dramatic lighting and powerful narration creates an unforgettable experience, bringing history to life in a captivating manner.</p>
+	    <p><strong>Places to be visited in Andaman:</strong> Mentioned ABOVE.</p>
+	    <p><strong>NOTE:</strong> If the Light and Sound show at Cellular Jail is canceled due to weather or maintenance, alternative sightseeing options will be arranged. Rescheduling the show will be attempted, and our team will keep you informed. We strive to provide the best travel experience, even in unexpected situations.</p></li>
+
+
+            <li><strong>Day 2: BOAT RIDE FROM PORT BLAIR TO ROSS ISLAND & BORTH BAY ISLAND</strong> 
+            <p>After Morning breakfast After breakfast, take a ferry from Andaman Water Sports Complex to Ross Island and North Bay.</p>
+	    <p><strong>Ross Island:</strong> Explore the historical remnants, including the Chief Commissioner’s House and Church, in a dilapidated condition. Ideal for history enthusiasts and nature lovers.</p>
+	    <p><strong>North Bay:</strong> Known for its exotic coral and marine life, engage in optional activities like glass-bottom boat rides and scuba diving (direct payment basis). Perfect for adventure seekers and nature enthusiasts.</p>
+            <p><strong>Places to be visited in Andaman:</strong> Mentioned ABOVE</p></li>
+
+
+            <li><strong>Day 3: CRUISE FROM PORT BLAIR TO HAVELOCK TO RADHANAGAR BEACH & BACK TO PORT BLAIR</strong> 
+            <p>Early in the morning, you’ll depart for Havelock Island by Govt. ferry or Private Cruise, a journey of approximately 2 and a half hours from Port Blair. Upon reaching Havelock, our representative will welcome you and take you to Radhanagar Beach, also known as Beach No. 7. This beach, considered the jewel of Havelock Island, gained international acclaim when Time magazine rated it as the best beach in Asia in 2004. With its extensive stretch of white sand, it’s an ideal spot for activities like swimming, sea bathing, and sunbathing. Explore the nearby cafes and restaurants offering local cuisine and refreshing drinks. In the evening, you’ll return to Port Blair, capturing the stunning scenery and preserving memories of this beautiful island. Make sure to check the ferry/cruise schedules to avoid any delays.</p>
+            <p><strong>Places to be visited in Andaman:</strong> Havelock Island, Radhanagar Beach/Beach No.7</p></li>
+
+            <li><strong>Day 4: BARATANG & LIMESTONE CAVE</strong> 
+            <p>Embark on an early morning road trip from Port Blair to Baratang Island, approximately 110 km away. Traverse lush tropical forests and the Jarawa Tribal reserve in a convoy, offering the possibility of encountering a member of the Jarawa Tribe. Following the forest drive, reach Baratang jetty for a captivating fiber boat ride through picturesque mangroves. This boat journey leads to the starting point of the trek to the Lime Stone Caves. Trek through dense forests to reach the Limestone Cave, a captivating natural wonder with stunning formations, providing insights into its history and geology. After the trek, return to Port Blair in the evening for an overnight stay at your hotel. Utilize this time to rest and rejuvenate for the exciting adventures that await.</p>
+            <p><strong>Places to be visited in Andaman:</strong> Baratang & limestone Cave. Activity like Trekking on this day</p></li>
+
+            <li><strong>Day 5: CITY TOUR & HEAD TO CHIDIYATAPU</strong> 
+            <p>After breakfast, explore the following places in Port Blair:</p>
+            <p><strong>Cellular Jail:</strong> Also known as Kaala Paani, it is a historic monument built by the British in 1906. Used as a colonial prison during India’s struggle for independence, it now serves as a national memorial, reminding visitors of the sacrifices made by freedom fighters.</p>
+	    <p><strong>Samudrika Marine Museum:</strong> A must-visit for marine life enthusiasts, the museum showcases over 350 varieties of marine life, including clownfish, clam shells, corals, and a complete blue whale skeleton. It offers insights into the marine biodiversity of the Andaman and Nicobar Islands.</p>
+	    <p><strong>Anthropological Museum:</strong> Ideal for those interested in the cultural and social history of the islands, this museum displays the lifestyle, traditions, and artifacts of indigenous tribes, including the Jarawas, Shompens, Onges, Nicobarese, and Sentinelese.</p>
+	    <p><strong>Chatham Saw Mill (Forest Museum):</strong> Asia’s oldest sawmill, it is located on a small island connected to Port Blair by a bridge. Accompanied by a forest department museum, it showcases the region’s forest activities through scale models and displays.</p>
+	    <p><strong>Jogger’s Park:</strong> A popular destination known for its cleanliness, beautiful views, and a unique feature providing a clear view of the nearby airport runway. It’s an excellent spot for jogging, walking, and enjoying outdoor activities.</p>
+	    <p><strong>Flag Point:</strong> A site of historical significance where Netaji Subhash Chandra Bose hoisted the Indian Tricolour for the first time on Indian soil on December 30, 1943. Today, a 150-feet high flag mast stands at the spot.</p>
+	    <p><strong>Chidiyatapu (Sunset View Point):</strong> In the evening, head to Chidiyatapu, a pristine beach known for its incredible sunset views. Relax on the white sands, listen to the sounds of nature, and witness a breathtaking sunset. The area is rich in birdlife, providing a photographer’s delight.</p>
+	    <p><strong>Places to be visited in Andaman:</strong> Mentioned ABOVE</p></li>
+
+
+	    <li><strong>Day 6: DROP TO AIRPORT- READY FOR DEPARTURE</strong> 
+            <p>After a delightful breakfast, it’s time to check out from your hotel. Our team will be there to escort you to the airport, ensuring you depart with wonderful memories of your ultimate holiday to cherish. (Tour ends here with sweet memories)</p>
+            <p><strong>Places to be visited in Andaman:</strong> None</p></li>
+
+
+        </ul>
+    </div>
+
+    <div class="container" id="package">
+        <h1>Package (5 Nights 6 Days): ₹33850.00/- Per Person</h1>
+
+
+        <ul>    
+        <li><h3>VEHICLE FOR THE TOUR</h3></li></ul>
+        <ol>
+        <li>For 01 to 03 Person: An AC Toyota Etios / Swift Dezire / Similar</li>
+        <li>For 04 to 06 Person: An AC Toyota Innova / Similar</li>
+        <li>For 07 to 12 Person: An AC Tempo Traveller / Similar</li>
+        <li>For 13 to 18 Person: An AC Mini Coach / Similar (NA at the moment)</li>
+        <li>For 18 to 45 Person: An AC Large Coach (NA at the moment)</li>
+        </ol>
+        </ul>
+
+        <ul>    
+        <li><h3>ACCOMMODATION FOR THE TOUR</h3></li></ul>
+        <li>Andaman - El Dorado Beach Resort / Pigeon Nest / Hotel SR Castle / Seven Seas Dream Castle / Similar</li>
+        </ul>
+
+        <ul>    
+        <li><h3>INCLUDED IN THE TOUR</h3></li></ul>
+        <ol>
+        <li>Sightseeing in private A/C vehicles</li>
+        <li>Accommodation at all islands as given, including taxes with Breakfast</li>
+        <li>Meet, great and complimentary water at the Airport</li>
+        <li>Complete all day tours with all transfers including airport pickup and drop</li>
+        <li>Complete ferry charges, cruise charges, permits and entry tickets</li>
+	<li>A Tour Coordinator to assist you during the trip on several locations</li>
+	<li>Complete assistance by Eternal Andamans team during your visit, at all times</li>
+	<li>All vehicle charges including A/C</li>
+	<li>Cruise tickets as per the disposal: Makruzz, Green Ocean, ITT Majestic, Bhagya Express and Sea Link</li>
+        </ol>
+        </ul>        
+
+        <ul>    
+        <li><h3>NOT Included in this Tour</h3></li></ul>
+        <ol>
+        <li>Flight Tickets. We recommend you to book tickets by yourself to ensure its affordable and perfectly fits your time range</li>
+        <li>Additional camera charges at certain places during sightseeing</li>
+        <li>Personal Expenses including: incidentals, extra meals,telephone charges, minibar etc.</li>
+        <li>Extra room services: Food Orders, Snack orders etc.</li>
+	<li>Additional sightseeing or extra use of vehicles other than what’s mentioned</li>
+	<li>Additional costs due to natural calamities</li>
+	<li>Other meals which are not included in the itinerary</li>
+        </ol>
+        </ul>   
+    </div>
+
+
+    <div class="container" id="terms">
+        <h1>Terms & Conditions</h1>
+        <h3>Payment Terms & Methods:</h3>
+        <ol><li>Some Advance Percentage of total booking amount.</li>
+        <li>Airfare/Transport fare to be paid full at one time in advance.</li></ol>
+        <h3>Cancellation & Refund Policy:</h3>
+        <ol><li>25% cancellation charges if canceled 7 days before the trip. No refund for cancellations made less than 7 days before the trip.</li>
+        <li>Retention Amount varies as per the number of days left before your package start date.</li><ol>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active");
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>

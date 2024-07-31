@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Goa</title>
+    <link rel="icon" type="image/png" href="t&t.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+            background-image: url('goa_bg.png'); 
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Transparent background */
+            padding: 10px;
+            color: white;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            width: 24px; /* Adjust the size as needed */
+            height: 24px; /* Adjust the size as needed */
+            margin-right: 10px; /* Space between icon and text */
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background: #575757;
+        }
+        .navbar .enquiry-button {
+            background-color: green; /* Green background */
+            border: none;
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; /* Font size */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7); /* Black and transparent */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: white;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            height: 550px;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .active {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #fff; /* White color */
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            color: #fff; /* White color */
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #fff; /* White color */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="t&t.png" alt="Icon"> 
+            Explore Goa
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Destination</a>
+            <a href="#itenary">Itinerary</a>
+            <a href="#package">Package</a>
+            <a href="#terms">T&C</a>
+            <a href="enquiry.html" target="_blank" class="enquiry-button">Send Enquiry</a>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Destination</h1>
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="goa1.png" alt="Goa Image 1"> 
+            </div>
+            <div class="slides">
+                <img src="goa2.png" alt="Goa Image 2">
+            </div>
+            <div class="slides">
+                <img src="goa3.png" alt="Goa Image 3">
+            </div>
+            <div class="slides">
+                <img src="goa4.png" alt="Goa Image 4">
+            </div>
+            <div class="slides">
+                <img src="goa5.png" alt="Goa Image 5">
+            </div>
+	    <div class="slides">
+                <img src="goa6.png" alt="Goa Image 6">
+            </div>
+	    <div class="slides">
+                <img src="goa7.png" alt="Goa Image 7">
+            </div>
+        </div>
+        <p>Goa, India's smallest state, is a vibrant destination known for its stunning beaches, rich cultural heritage, and vibrant nightlife. Nestled along the Arabian Sea, Goa offers a perfect blend of Portuguese and Indian influences, evident in its architecture, cuisine, and festivals. From the serene shores of Palolem to the bustling nightlife of Baga Beach, Goa caters to every traveler's desires. Explore the historic churches of Old Goa, indulge in water sports, or simply relax in the coastal beauty. Whether you seek adventure, relaxation, or a cultural experience, Goa promises an unforgettable escape.</p>
+    </div>
+
+    <div class="container" id="itenary">
+        <h1>Detailed Day Wise Itinerary</h1>
+        <ul>
+            <li><strong>Day 1: ARRIVAL IN GOA </strong> 
+            <p>You will get a warm welcome by our representative when you arrive at Goa Airport/Railway Station/Bus stop. You will then escort to your pre-booked hotel for Initial check-in process (Standard Check-in time is 14:00hrs). After some relaxation you may self-explore the beaches/market area nearby your hotel at own cost and then overnight stay at your hotel.</p>
+	    <p><strong>Note:-</strong> During the transfers no additional activity is included such as meal-breakfast or sightseeing of alternative points, same will be chargeable extra.</p>
+            <p><strong>Places to be visited in Goa:</strong> NONE | Overnight Stay at Hotel Silver Shell</p></li>
+
+            <li><strong>Day 2: NORTH GOA SIGHTSEEING</strong> 
+            <p>After breakfast, get ready for a drive to North Goa. Here you can visit Dona Paula, Calangute, Baga, and Miramar Beach. Along with that, North Goa is home to several tourist attractions. You can cover various tourist attractions, including Basilica Bom Jesus, St Cajetan, St Francis of Assisi, Se Cathedral, and Church of St. Monica. All these shrines feature a unique architectural style that speaks much about those times' heritage and craftsmanship.</p>
+	    <p>You can also visit the Museum of Christian Art and Archeological Museum. Later, travel to "Solar Souto Maior," an aristocratic mansion. Head to Panjim and enjoy viewing its unique colonial architecture as you drive through the city. Finally, enjoy your lunch at Panjim.</p>
+	    <p>Post lunch and head to Baga Beach to enjoy water sports, and then you can go on a shopping spree at the Tibetan market. Stay overnight at the hotel.</p>
+            <p><strong>Places to be visited in Goa:</strong> MENTIONED ABOVE</p></li>
+
+            <li><strong>Day 3: SOUTH GOA SIGHTSEEING</strong> 
+            <p>After having your breakfast, head towards South Goa. Today, you will be sightseeing the major attractions of South Goa. Tourist attractions that you will cover include Margao and Largo de Igreja. Later proceed to "Ancestral Goa," a re-creation of Goan rural life. The village has several artifact centers, art galleries, and open-air museums.</p>
+	    <p>Now it's time to visit the grand house - Menezes Braganza house, in Chandor. This house also has a library with 5,000 leather-bound books personally collected by Luis de Menezes Braganza (1878-1938), a reputed journalist well-known for playing a pivotal role in Goa's independence movement. After the long sightseeing tour of South Goa, head back to the hotel, have dinner and enjoy an overnight stay.</p>
+            <p><strong>Places to be visited in Goa:</strong> MENTIONED ABOVE</p></li>
+
+	    <li><strong>Day 4: AGRA TO NEW DELHI DEPARTURE</strong> 
+            <p>This is the last day of your Goa tour. Munch some delicious breakfast and then check-out of the hotel. Then, start driving towards the airport, and on reaching, board your flight home. (Tour ends here with sweet memories)</p>
+            <p><strong>Places to be visited in Goa:</strong> None</p></li>
+        </ul>
+    </div>
+
+    <div class="container" id="package">
+        <h1>Package (3 Nights 4 Days): ₹19500.00/- Per Person</h1>
+
+
+        <ul>    
+        <li><h3>VEHICLE FOR THE TOUR</h3></li></ul>
+        <ol>
+        <li>For 01 to 03 Person: An AC Toyota Etios / Swift Dezire / Similar</li>
+        <li>For 04 to 06 Person: An AC Toyota Innova / Similar</li>
+        <li>For 07 to 12 Person: An AC Tempo Traveller / Similar</li>
+        <li>For 13 to 18 Person: An AC Mini Coach / Similar</li>
+        <li>For 18 to 45 Person: An AC Large Coach</li>
+        </ol>
+        </ul>
+
+        <ul>    
+        <li><h3>ACCOMMODATION FOR THE TOUR</h3></li></ul>
+        <li>Delhi - Hotel Silver Shell / Riva Beach Resort / Similar</li>
+        </ul>
+
+        <ul>    
+        <li><h3>INCLUDED IN THE TOUR</h3></li></ul>
+        <ol>
+        <li>Daily Breakfast at your respected Hotel</li>
+        <li>Airport, Railway Station and Hotel Pickup</li>
+        <li>Provision of an Air Condition Car</li>
+        <li>02 nights Accommodation in Heritage hotels / 3 star or equiv. hotels on twin sharing basis</li>
+        <li>Govt. Auth. Tourist Guide Service</li>
+        </ol>
+        </ul>        
+
+        <ul>    
+        <li><h3>NOT Included in this Tour</h3></li></ul>
+        <ol>
+        <li>Entry fee at places of visit</li>
+        <li>Personal expenses such as mineral water, laundry, telephone calls, tip etc.</li>
+        <li>Meals and services not specified in the above mentioned section</li>
+        <li>Any flight / Train Tickets</li>
+        </ol>
+        </ul>   
+    </div>
+
+
+    <div class="container" id="terms">
+        <h1>Terms & Conditions</h1>
+        <h3>Payment Terms & Methods:</h3>
+        <ol><li>Some Advance Percentage of total booking amount.</li>
+        <li>Airfare/Transport fare to be paid full at one time in advance.</li></ol>
+        <h3>Cancellation & Refund Policy:</h3>
+        <ol><li>25% cancellation charges if canceled 7 days before the trip. No refund for cancellations made less than 7 days before the trip.</li>
+        <li>Retention Amount varies as per the number of days left before your package start date.</li><ol>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active");
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>

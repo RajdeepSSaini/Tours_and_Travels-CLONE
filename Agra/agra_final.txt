@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Agra</title>
+    <link rel="icon" type="image/png" href="t&t.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+            background-image: url('agra_bg.png'); 
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Transparent background */
+            padding: 10px;
+            color: white;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            width: 24px; /* Adjust the size as needed */
+            height: 24px; /* Adjust the size as needed */
+            margin-right: 10px; /* Space between icon and text */
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background: #575757;
+        }
+        .navbar .enquiry-button {
+            background-color: green; /* Green background */
+            border: none;
+            color: white; /* White text */
+            padding: 10px 20px; /* Padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; /* Font size */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7); /* Black and transparent */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: white;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            height: 550px;
+            overflow: hidden;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .active {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #fff; /* White color */
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            color: #fff; /* White color */
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #fff; /* White color */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="t&t.png" alt="Icon"> 
+            Explore Agra
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Destination</a>
+            <a href="#itenary">Itinerary</a>
+            <a href="#package">Package</a>
+            <a href="#terms">T&C</a>
+            <a href="enquiry.html" target="_blank" class="enquiry-button">Send Enquiry</a>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Destination</h1>
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="agra1.png" alt="Agra Image 1"> 
+            </div>
+            <div class="slides">
+                <img src="agra2.png" alt="Agra Image 2">
+            </div>
+            <div class="slides">
+                <img src="agra3.png" alt="Agra Image 3">
+            </div>
+            <div class="slides">
+                <img src="agra4.png" alt="Agra Image 4">
+            </div>
+            <div class="slides">
+                <img src="agra5.png" alt="Agra Image 5">
+            </div>
+	    <div class="slides">
+                <img src="agra6.png" alt="Agra Image 6">
+            </div>
+	    <div class="slides">
+                <img src="agra7.png" alt="Agra Image 7">
+            </div>
+        </div>
+        <p>Agra, a city steeped in history and culture, is a must-visit destination for travelers. Located in Uttar Pradesh, India, Agra is renowned for the majestic Taj Mahal, an iconic symbol of love and architectural brilliance. Beyond the Taj Mahal, Agra boasts other historical marvels such as Agra Fort and Fatehpur Sikri, both UNESCO World Heritage Sites. The city's vibrant markets, delicious Mughlai cuisine, and rich Mughal heritage make it a captivating place to explore. Whether you're a history enthusiast, a culture lover, or simply seeking beautiful experiences, Agra promises an unforgettable journey into India's glorious past.</p>
+    </div>
+
+    <div class="container" id="itenary">
+        <h1>Detailed Day Wise Itinerary</h1>
+        <ul>
+            <li><strong>Day 1: ARRIVAL IN NEW DELHI </strong> 
+            <p>After your arrival at Delhi Airport/Railway Station, Our agent will arrange a cab for you to Agra. Upon arrival, check-in at the hotel. Then, you can go and roam around the area or you can take rest for the day. Help yourself to spent the first day and leave the rest on us. You will stay there overnight.</p>
+            <p><strong>Places to be visited in Delhi:</strong> Red Fort, Jama Masjid, Raj Ghat, Humayun Tomb, India Gate, Qutab Minar, Grand President House, Lotus Temple, Mahatma Gandhi Memorial etc.</p></li>
+
+            <li><strong>Day 2: NEW DELHI TO AGRA</strong> 
+            <p>In the morning, head towards Mathura. The drive to Mathura will take around 3 hours to reach. Reaching there will let us visit the Lord Krishna’s birthplace and we will visit other temples too. Later, we will continue the ride towards Agra which will take another 75 minutes to reach. After reaching in Agra, we will visit the most amazing example of architecture which is Agra fort and we will spend some time there exploring. Later we will go to the hotel and relax for the night.</p>
+            <p><strong>Places to be visited in Delhi:</strong> Sikandra, Taj Mahal, Itmad Ud Daula, Chini Ka Rauza, Agra Fort.</p></li>
+
+            <li><strong>Day 3: AGRA TO NEW DELHI DEPARTURE</strong> 
+            <p>Morning Sunrise after having breakfast start visit of Taj Mahal than return back to hotel, after breakfast check out from the hotel and return back to Delhi airport. The tour is ends with sweet and precious memories.After arrive at Delhi and transfer to airport to board the flight for your onward destinations. (Tour ends here with sweet memories)</p>
+            <p><strong>Places to be visited in Delhi:</strong> None</p></li>
+        </ul>
+    </div>
+
+    <div class="container" id="package">
+        <h1>Package (2 Nights 3 Days): ₹6500.00/- Per Person</h1>
+
+
+        <ul>    
+        <li><h3>VEHICLE FOR THE TOUR</h3></li></ul>
+        <ol>
+        <li>For 01 to 03 Person: An AC Toyota Etios / Swift Dezire / Similar</li>
+        <li>For 04 to 06 Person: An AC Toyota Innova / Similar</li>
+        <li>For 07 to 12 Person: An AC Tempo Traveller / Similar</li>
+        <li>For 13 to 18 Person: An AC Mini Coach / Similar</li>
+        <li>For 18 to 45 Person: An AC Large Coach</li>
+        </ol>
+        </ul>
+
+        <ul>    
+        <li><h3>ACCOMMODATION FOR THE TOUR</h3></li></ul>
+        <li>Delhi - Taj Villa / Similar</li>
+        </ul>
+
+        <ul>    
+        <li><h3>INCLUDED IN THE TOUR</h3></li></ul>
+        <ol>
+        <li>Daily Breakfast at your respected Hotel</li>
+        <li>Airport, Railway Station and Hotel Pickup</li>
+        <li>Provision of an Air Condition Car</li>
+        <li>02 nights Accommodation in Heritage hotels / 3 star or equiv. hotels on twin sharing basis</li>
+        <li>Govt. Auth. Tourist Guide Service</li>
+        </ol>
+        </ul>        
+
+        <ul>    
+        <li><h3>NOT Included in this Tour</h3></li></ul>
+        <ol>
+        <li>Entry fee at places of visit</li>
+        <li>Personal expenses such as mineral water, laundry, telephone calls, tip etc.</li>
+        <li>Meals and services not specified in the above mentioned section</li>
+        <li>Any flight / Train Tickets</li>
+        </ol>
+        </ul>   
+    </div>
+
+
+    <div class="container" id="terms">
+        <h1>Terms & Conditions</h1>
+        <h3>Payment Terms & Methods:</h3>
+        <ol><li>Some Advance Percentage of total booking amount.</li>
+        <li>Airfare/Transport fare to be paid full at one time in advance.</li></ol>
+        <h3>Cancellation & Refund Policy:</h3>
+        <ol><li>25% cancellation charges if canceled 7 days before the trip. No refund for cancellations made less than 7 days before the trip.</li>
+        <li>Retention Amount varies as per the number of days left before your package start date.</li><ol>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active");
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>
